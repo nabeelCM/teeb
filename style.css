@@ -1,0 +1,846 @@
+html
+
+{
+	font-family: 'Droid Serif', serif;
+	background-color: #17112b;
+}
+.menu a
+{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 17px;
+}
+.menu 
+{
+    display: inline-flex;
+    padding: 24px;
+    position: absolute;
+    top: 63%;
+    left: 30%;
+    font-size: 14px;
+}
+.header
+{
+	text-align: center;
+	height: 188px;
+	position: relative;
+	background-color: rgba(23, 17, 43,0.7);
+	z-index: 25;
+}
+.bx-wrapper
+{
+	position: absolute;
+	width: 1333px;
+	height: 138%;
+	top: 10px;
+}
+.bx-wrapper img 
+{
+    max-width: 100%;
+    display: block;
+}
+.bx-viewport
+{
+	height: 100%;
+}
+.text
+{
+
+	font-size: 48px;
+    position: absolute;
+    bottom: 13%;
+    left: 30%;
+    border-style: solid;
+    padding: 17px;
+    color: white;
+}
+arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.shop_now
+{
+	position: absolute;
+    color: white;
+    top: 122%;
+    font-size: 20px;
+    left: 90%
+}
+.shop_now a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+.bxslider
+{
+	width: 1333px;
+}
+.about
+{
+    position: relative;
+    top: 777px;
+    width: 50%;
+    text-align: justify;
+    left: 25%;
+}
+.abt_head
+{
+	text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.abt_txt
+{
+    position: absolute;
+    top: 47px;
+    line-height: 45px;
+    color: white;
+    font-size: 28px;
+    right: -20%;
+    width: 136%;
+    text-align: center;
+}
+.read_more
+{
+    position: absolute;
+    top: 1263%;
+    text-decoration: none;
+    left: 39%;
+    font-size: 16px;
+    color: #532ebf;
+}
+.read_more a
+{
+    text-decoration: none;
+    color: #532ebf;
+}
+.read_mo a
+{
+	text-decoration: none;
+}
+section.products
+{
+	position: relative;
+    top: 1135px;
+    margin: 0px;
+    width: 670px;
+}
+div.perfume1
+{
+position: relative;
+}
+div.perfume1 img
+{
+	position: absolute;
+    width: 690px;
+    height: 349px;
+    left: -7px;
+}
+.read_mo
+{
+	background-color: rgba(255,255,255,0.7);
+	color: #18112c;
+	width: 30%;
+	position: absolute;
+	height: 20%;
+	text-decoration: none;	
+}
+#rm1
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #18112c;
+    position: absolute;
+    width: 31%;
+    left: 34%;
+    height: 76px;
+    top: 143px;
+
+}
+#rm1 p
+{
+    position: absolute;
+    bottom: 19px;
+    left: 47px;
+    font-size: 20px;
+}
+#rm1 a 
+{
+    text-decoration: none;
+    color: #532ebf;
+    position: absolute;
+    top: 40px;
+    left: 68px;
+    font-size: 16px;
+}
+.another
+{
+position: relative;
+	left: 551px;
+}
+#rm2
+{
+	background-color: rgba(255, 255, 255, 0.7);
+    color: #18112c;
+    position: absolute;
+    width: 224px;
+    left: 53%;
+    height: 76px;
+    top: 144px;
+
+}
+#rm2 p
+{
+    position: absolute;
+    bottom: 19px;
+    left: 47px;
+    font-size: 20px;
+}
+#rm2 a 
+{
+	text-decoration: none;
+    color: #532ebf;
+    position: absolute;
+    top: 41px;
+    left: 82px;
+    font-size: 16px;
+}
+.another img
+{
+    position: absolute;
+    width: 652px;
+    left: 134px;
+    height: 349px;
+}
+.sp_oud
+{
+	position: absolute;
+    width: 690px;
+    top: 351px;
+    left: -7px;
+}
+.sp_oud img
+{
+    width: 100%;
+    height: 349px;
+}
+#rm3 a
+{
+    text-decoration: none;
+    color: #532ebf;
+    font-size: 16px;
+    position: absolute;
+    top: 45px;
+    left: 29%;
+}
+#rm3
+{
+	width: 30%;
+    height: 22%;
+    position: absolute;
+    top: 38%;
+    text-align: center;
+    left: 34%;
+    font-size: 20px;
+    text-decoration: none;
+}
+#rm3 p 
+{
+    position: absolute;
+    left: 23%;
+    top: -4px;
+}
+.best_oud
+{
+
+	position: absolute;
+    width: 655px;
+    top: 351px;
+    left: 685px;
+}
+.best_oud img
+{
+	width: 100%;
+    height: 349px;
+}
+#rm4 a
+{
+	top: 57px;
+    position: absolute;
+    left: 77px;
+    font-size: 16px;
+    color: #532ebf;
+}
+#rm4 p
+{
+    font-size: 22px;
+    position: absolute;
+    bottom: 36px;
+    left: 17px;
+}
+div#rm4 
+{
+    top: 38%;
+    width: 35%;
+    height: 22%;
+    left: 26%;
+    text-align: center;
+    padding: 16px;
+}
+.testimonial
+{
+    position: absolute;
+    top: 2070px;
+    width: 99%;
+    height: 56%;
+    text-align: center;
+}
+.test p::after
+{
+	content: "";
+	font-size:25px;
+}
+#a2
+{
+    position: absolute;
+    top: 79px;
+    left: 64%;
+    font-size: 66px;
+    color: rgba(255,255,255,0.3);
+}
+#a1
+{
+    position: absolute;
+    top: 79px;
+    left: 32%;
+    font-size: 66px;
+    color: rgba(255,255,255,0.3);
+}
+.user p
+{
+    font-size: 28px;
+    color: #ffffff;
+    position: absolute;
+    left: 7%;
+    line-height: 50px;
+}
+#q1
+{   
+	position: absolute;
+    font-size: 75px;
+    color: rgba(255,255,255,0.3);
+    left: 24px;
+}
+#q2
+{
+    position: absolute;
+    font-size: 75px;
+    color: rgba(255,255,255,0.3);
+    left: 92%;
+    transform: rotate(180deg);
+}
+.Awards
+{
+	position: relative;
+    top: 2206px;
+    background-image: url(images/bg2.jpg);
+    width: 101%;
+    left: -7px;
+    height: 379px;
+    background-size: cover;
+}
+.overlay
+{
+position: absolute;
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    background-color: grey;
+    opacity: 0.8;
+}
+.awards_head
+{
+    text-transform: uppercase;
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    z-index: 10000;
+    top: 21%;
+    left: 6%;
+}
+.underline
+{
+    position: absolute;
+    background: #7f70a2;
+    height: 3px;
+    top: 46%;
+    width: 5%;
+    left: 79px;
+}
+.ion-load-d
+{
+    position: absolute;
+    color: white;
+    border-radius: 5px;
+    border: #532ebf;
+    font-size: 34px;
+    left: 22%;
+    top: 12%;
+}
+.circle
+{
+    position: absolute;
+    height: 45px;
+    width: 44px;
+    border-style: solid;
+    border-radius: 49px;
+    border-width: 1px;
+    border-color: #4f477a;
+}
+#c1
+{
+	top: 9%;
+    left: 5.3%;
+}
+.iso 
+{
+    width: 25%;
+    height: 101px;
+    position: absolute;
+    top: 238px;
+    left: 50px;
+}
+.award_head
+{
+	color: white;
+    position: absolute;
+}
+.award_def
+{
+	color: #4f477a;
+    position: absolute;
+}
+#iso_head
+{
+	color: white;
+	position: absolute;
+	left: 22%;
+    top: 10%;
+    font-size: 18px;
+}
+#iso_def
+{
+    color: #4f477a;
+    position: absolute;
+    top: 34%;
+    left: 21%;
+}
+.iso2
+{
+	width: 25%;
+    height: 101px;
+    position: absolute;
+    top: 247px;	
+    left: 29%;
+}
+.ion-social-codepen-outline
+{
+	font-size: 27px;
+    position: absolute;
+    top: -3px;
+    left: -.6px;
+}
+.iso_bg
+{
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    top: 9px;
+    left: 10px;
+}
+div#iso2_head 
+{
+    color: white;
+    position: absolute;
+    left: 15%;
+    top: 1%;
+    font-size: 18px;
+}
+div#iso2_def 
+{
+    color: #4f477a;
+    position: absolute;
+    top: 26%;
+    left: 14%;
+}
+i.ion-paper-airplane 
+{
+    color: white;
+    font-size: 31px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+div#iso3_head
+{
+    position: absolute;
+    left: 49px;
+    top: 6px;
+}
+div#iso3_def 
+{
+    position: absolute;
+    left: 50px;
+    width: 220px;
+    top: 28px;
+}
+.iso3
+{
+	position: absolute;
+	left: 50%;
+	top:65%;
+}
+i.ion-egg 
+{
+    color: white;
+    font-size: 31px;
+    position: absolute;
+    left: 12px;
+    top: 5px;
+}
+div#iso4_head 
+{
+    left: 51px;
+    top: 3px;
+    width: 144px;
+}
+div#iso4_def 
+{
+	left: 51px;
+    top: 27px;
+    width: 233px;
+}
+.iso4 
+{
+    position: absolute;
+    top: 65%;
+    left: 75%;
+}
+section.donotconvert 
+{
+    height: 320px;
+    position: relative;
+    top: 2206px;
+    width: 100%;
+}
+ul#menu2 
+{
+    left: -17px;
+    border-left: none;
+    border: solid 1px;
+    border-right: none;
+    align-content: center;
+    width: 74%;
+    padding-left: 342px;
+    border-color: #4f477a;
+    top: 106%;
+    /* border-spacing: 50px; */
+}
+.logo_menu
+{
+    position: relative;
+    top: 2210px;
+    text-align: center;
+}
+.services
+{
+	position: absolute;
+	top: 3392px;
+	width: 99%;
+	height: 31%;
+}
+.image1
+{
+    position: absolute;
+    height: 75%;
+    top: 0;
+    bottom: 0;
+    left: 84px;
+    right: 0;
+    width: 20%;
+}
+.image1 img
+{
+	width: 100%;
+	height: 100%;
+}
+#ol1 a
+{
+	text-decoration: none;
+	color: white;
+}
+
+div#ol1 
+{
+    background-color: #532ebf;
+    position: absolute;
+    padding: 41px;
+    padding-top: 50px;
+    padding-left: 57px;
+    width: 63.5%;
+    font-size: 18px;
+    text-transform: uppercase;
+    height: 42%;
+    opacity: 0;
+    color: white;
+    transition: 0.5s ease;
+}
+.image1:hover #ol1 
+{
+	opacity:.7;
+
+}
+div#ol2 
+{
+    padding-top: 50px;
+    opacity: 0;
+    height: 100%;
+    transition: .5s ease;
+    background-color: #532ebf;
+    height: 68%;
+}
+.image2 a 
+{
+    text-decoration: none;
+    color: white;
+}
+.image2 
+{
+    position: absolute;
+    left: 29%;
+    top: 0%;
+    width: 20%;
+    height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.image2:hover #ol2 
+{
+	opacity:.7;
+}
+.image2 img 
+{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+.image3 
+{
+    position: absolute;
+    height: 75%;
+    width: 20%;
+    left: 51%;
+}
+.image3 img 
+{
+    width: 100%;
+    height: 100%;
+}
+.image3 a 
+{
+    color: white;
+}
+div#ol3 
+{
+    background: #532ebf;
+    text-align: center;
+    padding-top: 50px;
+    opacity: 0;
+    height: 68%;
+}
+.image3:hover #ol3 
+{
+	opacity:.7;
+}
+.image4
+{
+	position: absolute;
+    height: 75%;
+    width: 20%;
+    left: 74%;
+}
+.image4 img 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+div#ol4 
+{
+    background: #532ebf;
+    opacity: 0;
+    padding-top: 50px;
+    width: 69.5%;
+    padding-left: 81px;
+    height: 68%
+}
+.image4:hover #ol4 
+{
+	opacity:.7;
+}
+.image4 a
+{
+	color: white;
+}
+.contact
+{
+    top: 2510px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+div#social_circle 
+{
+    position: absolute;
+    left: 41.6%;
+    height: 35px;
+    width: 35px;
+}
+
+i.ion-social-facebook 
+{
+    font-size: 19px;
+    position: absolute;
+    top: 7px;
+    left: 13px;
+    color: white;
+}
+.soc
+{
+	font-size: 19px;
+    position: absolute;
+    color: white;
+}
+div#social_circle2 
+{
+    left: 45%;
+    height: 35px;
+    width: 35px;
+}
+i.soc.ion-social-twitter 
+{
+    left: 10px;
+    top: 7px;
+}
+div#social_circle3 
+{
+    left: 48.5%;
+    width: 35px;
+    height: 35px;
+}
+
+i.soc.ion-social-pinterest 
+{
+    left: 10px;
+    top: 8px;
+}
+div#social_circle4 
+{
+    left: 52%;
+    width: 35px;
+    height: 35px;
+}
+
+i.soc.ion-social-linkedin
+{
+    left: 11px;
+    top: 8px;
+}
+div#social_circle5
+{
+    left: 55.5%;
+    width: 35px;
+    height: 35px;
+}
+
+i.soc.ion-social-instagram
+{
+    left: 11px;
+    top: 8px;
+}
+.userr
+{
+    position: relative;
+    width: 100%;
+    top: 2592px;
+}
+.email 
+{
+    position: absolute;
+    left: 31%;
+}
+input[type="text"] 
+{
+    background: none;
+    color: #532ebf;
+    width: 315px;
+    padding: 10px;
+    border: solid 1px #4a4a4a;
+}
+button.subscribe 
+{
+    padding: 10px;
+    background: no-repeat;
+    color: #4a4a4a;
+    border: 1px solid;
+}
+input::placeholder 
+{
+	color: #532ebf;
+}
+ul#menu3 a 
+{
+    color: #532ebf;
+}
+ul#menu3 
+{
+    top: 14px;
+    left: 22%;
+}
+.tags
+{
+	color: #777482;
+    position: absolute;
+    top: 93px;
+	font-size: 12px;
+	line-height:20px;
+	width: 90%;
+	text-align:center;
+	left: 5%;
+	letter-spacing:1px;
+	word-spacing: 2px;
+}
+div#footer_2
+{
+    right: 8px;
+}
+
+.footer 
+{
+    color: #4a4a4a;
+    font-size: 12px;
+    position: absolute;
+    top: 211px;
+}
